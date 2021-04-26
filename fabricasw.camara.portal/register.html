@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CPCM - Registro de Agendamento</title>
+	<link rel='shortcut icon' href='img/favicon.ico' type='image/x-icon' />
+
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Load fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
+
+	<!--Load styles -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body onload="CarregarRegistro(this.window);">
+    <section class="registro-slide">
+		<div class="container" style="width: 95%;">
+			<h1 class="wow fadeInUp">Registro de Agendamento</h1>			                        
+            <div class="row">
+				<div class="col-md-12">
+                    <form class="form-registro" role="form" id="form-registro">			
+                        <div class="form-group">
+                            <label class="label-register">Nº do Protocolo:<span class="span-register" id="reg-protocolo"></span></label>
+						</div>
+						<div class="form-group">
+							<label class="label-register">Assunto:<span class="span-register" id="reg-assunto"></span></label>                          
+						</div>
+						<div class="form-group">
+							<label class="label-register">Descrição:<span class="span-register" id="reg-mensagem"></span></label>                          
+						</div>
+						<div class="form-group">
+							<label class="label-register">Solicitante:<span class="span-register" id="reg-nome"></span></label>                          
+						</div>
+						<div class="form-group">
+							<label class="label-register">Telefone:<span class="span-register" id="reg-telefone"></span></label>                          
+						</div>
+						<div class="form-group">
+							<label class="label-register">Email:<span class="span-register" id="reg-email"></span></label>                          
+						</div>
+						<div class="form-group">
+							<label class="label-register">Tipo:<span class="span-register" id="reg-tipo"></span></label>                          
+						</div>
+						<div class="form-group">
+							<label class="label-register">Registrado em:<span class="span-register" id="reg-datahora"></span></label>                          
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="col-md-5">								
+									<div class="main-item text-right wow fadeInUp">
+										<div class="main-text">
+											<h3>Informações Importantes</h3>
+											<ul>
+												<li>Esteja na câmara no dia e horários marcados com no mínimo 1 h de antecedência.</li>
+												<li>Verifique os documentos que são necessários para realização do serviço.</li>
+												<li>Em caso de dúvidas, entre em contato com nosso atendimento telefônico ou por email.</li>
+												<li>Para sua comodidade salve e/ou imprima este comprovante, para que possa facilitar o acesso aos seu processo.</li>
+											</ul>										
+										</div>							
+									</div>
+								</div>
+								<div class="col-md-2 text-center">
+									<div class="main-center-logo" alt="logo"></div>
+								</div>
+								<div class="col-md-5">
+									<div class="main-item text-right wow fadeInUp">
+										<div class="main-text">
+											<h3>Documentos necessários</h3>
+											<ul class=""> Conciliação e Mediação
+												<li>Dados pertinentes ao serviço especificado</li>											
+												<li>Comprovante de residência atualizado</li>
+												<li>Documento com foto (RG/CNH) original </li>
+											</ul>										
+											<ul class="">Orientação Jurídica
+												<li>RG</li>
+												<li>CPF</li>
+											</ul>
+										</div>						
+									</div>
+								</div>								
+							</div>							
+						</div>						
+						<div class="row">
+							<div class="col-md-4">Endereço: Rua Rosarinho, 904 Centro, Paulista - PE CEP: 53401-451</div>
+							<div class="col-md-4">Telefone: (81) 3413-4611 / Ramal 5939</div>							
+							<div class="col-md-4">Horário: De Segunda à Sexta de 9h às 21h</div>							
+						</div>
+                    </form>
+
+                </div>
+            </div>
+		</div>				
+        
+        
+        
+
+
+    </section>
+    
+
+	<!-- Load jQuery -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<!-- Load Booststrap -->
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<!-- Load custom js plugins -->
+	<script type="text/javascript" src="js/jquery.mixitup.js"></script>
+	<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+	<script type="text/javascript" src="js/wow.js"></script>
+	<script type="text/javascript" src="js/smooth-scroll.js"></script>
+	<!-- Load custom js for theme -->
+	<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
