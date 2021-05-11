@@ -2,7 +2,7 @@
 
 ## Linguagens Utilizadas - .Net ASP Core, ReactJS e JavaScript.
 
-### .Net ASP Core utilizado para o desenvolvimento de APis.
+### .Net ASP Core utilizado para o desenvolvimento de APIs.
 ### ReactJS utilizado para o desenvolvimento do Sistema interno.
 ### JavaScript para o desenvolvimento do Portal.
 
